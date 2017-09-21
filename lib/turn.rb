@@ -30,7 +30,7 @@ fact = valid_move?(board, index)
 if fact == true
   move(board, index)
   display_board(board)
-end  
- 
+end
+
 
 end
