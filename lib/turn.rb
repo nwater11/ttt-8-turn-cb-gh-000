@@ -33,7 +33,7 @@ if fact == true
 
 else
   turn(board)
-    
+
 end
 
 
