@@ -29,7 +29,11 @@ def turn(board)
 fact = valid_move?(board, index)
 if fact == true
   move(board, index)
-  display_board(board)
+  return display_board(board)
+
+else
+  turn(board)
+    
 end
 
 
